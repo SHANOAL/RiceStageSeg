@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f3d2e"/>
+      <stop offset="1" stop-color="#1f6f4a"/>
+    </linearGradient>
+    <pattern id="rows" width="24" height="24" patternUnits="userSpaceOnUse" patternTransform="rotate(-18)">
+      <rect width="24" height="24" fill="none"/>
+      <rect width="10" height="24" fill="#ffffff" opacity="0.035"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="300" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="300" rx="18" fill="url(#rows)"/>
+  <text x="600" y="132" text-anchor="middle" font-size="64" font-weight="700" fill="#ffffff" letter-spacing="1">RiceStageSeg</text>
+  <text x="600" y="180" text-anchor="middle" font-size="24" fill="#d8efe2">A Multimodal Benchmark Dataset for Semantic Segmentation of Rice Growth Stages</text>
+  <g transform="translate(330,218)">
+    <rect x="0" y="0" width="108" height="14" rx="7" fill="#9bd36b"/>
+    <rect x="108" y="0" width="108" height="14" fill="#5fbf6b"/>
+    <rect x="216" y="0" width="108" height="14" fill="#2f9e6b"/>
+    <rect x="324" y="0" width="108" height="14" fill="#e3c25a"/>
+    <rect x="432" y="0" width="108" height="14" rx="7" fill="#c9963c"/>
+  </g>
+  <text x="600" y="268" text-anchor="middle" font-size="18" fill="#b9dcc8">UAV RGB  ·  10-band multispectral  ·  pixel-level growth-stage labels</text>
+</svg>
